@@ -1,0 +1,28 @@
+Multiple Page Application (MPA) là một kiểu kiến trúc ứng dụng web truyền thống. Trong MPA, mỗi thay đổi hoặc yêu cầu mới từ người dùng dẫn đến việc tải lại toàn bộ trang. Mỗi trang của ứng dụng là một tệp HTML khác nhau, mang lại cảm giác quen thuộc cho người dùng và dễ dàng thực hiện SEO trên website1.
+
+Ví dụ, khi bạn chuyển từ trang danh sách sản phẩm sang trang chi tiết sản phẩm, MPA sẽ tải lại toàn bộ trang, bao gồm cả HTML, CSS và JavaScript. Điều này có thể làm cho trải nghiệm người dùng trở nên chậm chạp và thiếu linh hoạt.
+
+Trong khi đó, Single Page Application (SPA) là một kiểu kiến trúc ứng dụng web tương tác với người dùng bằng cách tải một trang HTML duy nhất và cập nhật nội dung mà không cần tải lại toàn bộ trang. SPA giúp tối ưu hiệu suất website và nâng cao trải nghiệm người dùng. Với SPA, tốc độ tải trang nhanh hơn do chỉ tải một lần và sau đó chỉ cập nhật các phần cần thiết của trang1.
+
+Những ưu điểm của SPA bao gồm:
+
+Tốc độ tải trang: SPA giúp giảm thiểu thời gian chờ đợi và cải thiện trải nghiệm người dùng.
+Cập nhật nội dung: SPA cho phép cập nhật nội dung ngay lập tức mà không cần tải lại toàn bộ trang.
+Trải nghiệm người dùng: SPA mang lại trải nghiệm mượt mà và liền mạch cho người dùng1.
+Tùy thuộc vào mục đích và yêu cầu của ứng dụng, lựa chọn giữa SPA và MPA sẽ ảnh hưởng đến hiệu suất, trải nghiệm người dùng và khả năng phát triển của trang web. 😊
+
+spread: là 1 phép lập lại các phần tử của mảng (array) hoặc đối tượng Object, được thể hiện dấu ...
+dùng trong function thì gọi là rest parameters khắc phục (argument): đại diện cho nhưng tham số không được khai báo của 1 hàm
+Destructuring(phá vỡ cấu trúc) dễ dàng sử dụng các phần tử của array hoặc object (mỗi lần lấy giá trị sẽ ngắn hơn) const {c, d} = a
+map duyệt qua từng phần tử của mảng. Giá trị trả về của hàm map là một mảng mới, với số lượng phần tử bằng với mảng cũ. những giá trị của phần tử được quyết định bởi lệnh return của hàm map
+JSX viết tắc của từ JavaScript XML
+Fragment <> </>
+Component(thành phần) giúp phân chia các UI thành các phần nhỏ để dễ dàng quản lý và tái sử dụng
+props
+là một object được truyền vào trong component, giao tiếp giữa các component với nhau bằng cách truyền tham số qua lại giữa các component
+- khi một component cha truyền cho component con một props thì components con chỉ có thể đọc và không có quyền chỉnh sửa nó bên component cha 
+cách truyền một props cũng như cách mà bạn thêm 1 attribute cho 1 element HTML 
+props có thể nhận giá trị là tất cả các kiểu dữ liệu
+nguyên thủy(symbol, Boolean, null, undefined, number, string), phức tạp(function, object)
+chèn icon react-icons
+camelCase  
